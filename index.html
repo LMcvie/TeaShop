@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js"></script>
+    <title>Tea Shop</title>
+    
+</head>
+<body>
+ <form id = "addTea">
+    <div id = "form-wrapper">
+        <div class = "form-item">
+            <label for ="name">Name</label>
+            <input type="text" id="name" required/> 
+        </div>
+
+        <div class = "form-item">
+            <label for = "type">Type</label>
+            <select id="typeSelect">
+                <option value=""disabled selected></option>
+                <option value="Rooibos">Rooibos</option>
+                <option value="Black Tea">Black Tea</option>
+                <option value="White Tea">White Tea</option>
+            </select>
+
+        </div>
+
+        <div class = "form-item">
+            <label for>Price</label>
+            <select id= "priceSelect">
+                <option value=""disabled selected></option>
+                <option value="£3 (Small)">£3 (Small)</option>
+                <option value="£4.50 (Medium)">4.50 (Medium)</option>
+                <option value="£6 (Large)">£6 (Large)</option>
+            </select>
+            
+        </div>
+    </div>
+    <input type="submit" value= "Submit">
+    <input id = "clear-all" type="button" value = "Clear all">
+    <input type="radio" id="sittingIn" name='preference' value = "Sitting in" checked="checked">
+    <label for="sittingIn">Sitting In</label>
+    <input type="radio" id="takeAway" name='preference' value = "Takeaway">
+    <label for="takeAway">Takeaway</label>
+
+
+ </form>
+<h1>Tea Shop</h1>
+<ul id = "tea-list"></ul>
+
+</body>
+</html>

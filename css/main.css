@@ -1,0 +1,52 @@
+body{
+    margin:1rem;
+    
+    
+}
+#addTea  {
+    align-items: center;
+    /* border:2px outset dodgerblue; */
+    width:fit-content;
+    border: 4px outset silver;
+    margin-bottom:2rem;
+    background-color:gold;
+}
+
+.order{ 
+    margin:1rem;
+    border: 2px solid dodgerblue;
+    background-color:burlywood;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    width:20%;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    flex-wrap: wrap;
+}
+
+#tea-list{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#form-wrapper{
+    display:flex;
+    padding-bottom:1rem;
+}
+
+.form-item{
+    padding-right: 2rem;
+}
+
+#priceSelect{
+    background-color: bisque;
+}
+#typeSelect{
+    background-color: bisque;
+}
+
+#name{
+    background-color: bisque ;
+}
